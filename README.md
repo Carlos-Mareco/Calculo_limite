@@ -1,4 +1,4 @@
-# Calculadora de limite (alfa)
+# Calculadora de limite (fase alfa de testes)
 
 Calcula o limite de uma função f(x) (definida na função <i>funcX(double x)</i>) quando x tende a um valor k (definida na função <i>existeLimite(double tende)</i> ). Todas as funções estão no arquivo [main.cpp](./main.cpp).
 
