@@ -13,7 +13,7 @@ int main() {
     existeLimite(-1.5);
     return 0;
 }
-//Função que séra usada no limite
+//Função que será usada no limite
 double funcX(double x) {
     return ((6*x*x+11*x+3)/(2*x*x-5*x-12));
 }
