@@ -2,11 +2,11 @@
 
 using std::cout;
 using std::endl;
-using std::cin;
 
 double funcX(double x);
 double limite(char lado, double tende, double difInicial, double acuracia);
 void existeLimite(double tende);
+
 int main() {
     cout << "f(x) = (6x²+11x+3)/(2x²-5x-12)" << endl;
     cout << "Quando f(x) tende a " << -1.5 << ": " << endl;
