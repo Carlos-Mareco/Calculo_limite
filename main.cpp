@@ -37,7 +37,7 @@ double limite(char lado, double tende, double difInicial, double acuracia) {
         }while(h > acuracia);
         break;
     default:
-        cout << "ERRO: Lado inválido!" << endl;
+        cout << "ERRO: Opção inválida!" << endl;
         break;
     }
     return funcX(x);
