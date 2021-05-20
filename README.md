@@ -1,6 +1,6 @@
 # Calculadora de limite (alfa)
 
-Calcula o limite de uma função f(x) definida na função <i>funcX(double x)</i> do arquivo [main.cpp](./main.cpp). 
+Calcula o limite de uma função f(x) definida na função <i>funcX(double x)</i> que x tende em <i>existeLimite(double tende)</i> no arquivo [main.cpp](./main.cpp).
 
 ## Compilação e execução
 
