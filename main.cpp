@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using std::cout;
 using std::endl;
@@ -43,8 +44,8 @@ double limite(char lado, double tende, double difInicial, double acuracia) {
     return funcX(x);
 }
 void existeLimite(double tende){
-    double esquerda = limite('e', tende, 0.002, 0.000000001);
-    double direita = limite('d', tende, 0.002, 0.000000001);
+    double esquerda = limite('e', tende, 2.e-3, 2.e-9);
+    double direita = limite('d', tende, 2.e-3, 2.e-9);
     if(esquerda == direita) {
         cout << "O limite existe e é " << direita << endl;
     } else {
